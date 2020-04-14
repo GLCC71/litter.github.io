@@ -1,70 +1,312 @@
 <!DOCTYPE html>
-<html lang="zh">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Fast look</title>
-	<link rel="icon" href="imgs/abc1.ico" sizes="32x32">
-	<style type="text/css">
-		body{
-			background-color: #6495ED;
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Fast look</title>
+		<link rel="icon" href="imgs/abc1.ico" sizes="32x32">
+		<style type="text/css">
+			body{
+				 background: linear-gradient(to right,#1D2671, #00b09b ,#96c93d,#C33764); 
+			}
+			.head{
+				border-radius: 10px;
+				width: 1300px;
+				height: 260px;
+				background-color: #C33764;
+				right: 0;
+				left: 0;
+				margin: auto;
+				margin-bottom: 40px;/
+			}
 			
-		}
-		#a1{
-			position: absolute;
-			width: 500px;
-			height: 300px;
-			background-color: #DC143C;
-			text-align: center;
-			border-radius: 20px;
-			top: 50%;
-			left: 50%;
-			-webkit-transform: translate(-50%, -50%);
-			-moz-transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%);
-			-o-transform: translate(-50%, -50%);
-			transform: translate(-50%, -50%);
-		}
-		#a1 #a2{
-			font-size: 45px;
-			color: #DDDDDD;
+			.head table{
+				font-size: 34px;
+				color: aliceblue;
+			}
+			.head a{
+				text-decoration: none;
+				color: aliceblue;
+			}
+			.head a:hover{
+				color:limegreen;
+			}
 			
-		}
+					
+				
+			.a1{
+				width: 1300px;
+				height: 3400px;
+				background-color: #B0E0E6;
+				margin: auto;
+				left: 0;
+				right: 0;
+				border-radius: 20px;
+				position: absolute;
+				text-align: center;
+				position: relative;
+			}
+			.a1 table{
+				font-size: 44px;
+				color: #0082C8;
+				font-family:"方正北魏楷书繁体" ;
+			}	
+		
+			.foot{
+				position: botton;
+				border-radius: 10px;
+				width: 1300px;
+				height: 60px;
+				background-color: #0082c8;
+				right: 0;
+				left: 0;
+				margin: auto;
+				margin-top: 40px;
+			}
+			.foot table{
+				font-size: 32px;
+				color: #F0F8FF;
+			}
+			
+			/*a{
+				display: none;
+				color: #F0F8FF;
+			}
+			a:hover{
+				color: crimson;
+			}*/ 
+			
+			
+		</style>
 		
 		
-	</style>
-	
-</head>
-<body>
-	
-	<div id="a1">
-		<div id="a2">
-			<br>
-			<form action="./a1.html">
-			       用户名:<input type="text" id="uname"/><br> 
-			       密码:<input type="password" id="pwd"/><br> 
-			       <input type="submit" value="登录" onclick="return checkuser()"/> 
-			</form> 
+	</head>
+	<body>
+		
+		<div class="head">
+			<table align="center">
+				<tr>
+					<br>
+					<br>
+					<td><img src="imgs/dance.gif" width="180px" height="145px" border-radius="10px"></td>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="A1.html">JAVA导航</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">游戏导航</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">素材导航</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">影视导航</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				</tr>
+				
+			</table>
+			
 		</div>
-	</div>
-	
-	
-	
-	
-	<script language="JavaScript" type="text/javascript"> 
-	    function getValue(id) { 
-	        return document.getElementById(id).value; 
-	    } 
-	    function checkuser() { 
-	        if(getValue('uname') == "root" && getValue('pwd') == "123") { 
-	            return true;
-	        }else { 
-	            alert("登录名或密码错误！")
-	            return false; 
-	        } 
-	    } 
-	</script> 
-	
-</body>
+		
+		<div class="a1">
+			<table align="center">
+				<br>
+				<br>
+				<br>
+				<tr>
+					<td>长恨歌</td>
+				</tr>
+				<tr>
+					<td>白居易</td>
+				</tr>
+				<tr>
+					<td>汉皇重色思倾国，御宇多年求不得。</td>
+				</tr>
+				<tr>
+					<td>杨家有女初长成，养在深闺人未识。</td>
+				</tr>
+				<tr>
+					<td>天生丽质难自弃， 一朝选在君王侧。</td>
+				</tr>
+				<tr>
+					<td>回眸一笑百媚生， 六宫粉黛无颜色。</td>
+				</tr>
+				<tr>
+					<td>春寒赐浴华清池， 温泉水滑洗凝脂。</td>
+				</tr>
+				<tr>
+					<td>侍儿扶起娇无力， 始是新承恩泽时。</td>
+				</tr>
+				<tr>
+					<td>云鬓花颜金步摇， 芙蓉帐暖度春宵。</td>
+				</tr>
+				<tr>
+					<td>春宵苦短日高起， 从此君王不早朝。</td>
+				</tr>
+				<tr>
+					<td>承欢侍宴无闲暇， 春从春游夜专夜。</td>
+				</tr>
+				<tr>
+					<td>后宫佳丽三千人， 三千宠爱在一身。</td>
+				</tr>
+				<tr>
+					<td>金屋妆成娇侍夜， 玉楼宴罢醉和春。</td>
+				</tr>
+				<tr>
+					<td>姊妹弟兄皆列土， 可怜光彩生门户。</td>
+				</tr>
+				<tr>
+					<td>遂令天下父母心， 不重生男重生女。</td>
+				</tr>		
+				<tr>
+					<td>骊宫高处入青云， 仙乐风飘处处闻。</td>
+				</tr>
+				<tr>
+					<td>缓歌慢舞凝丝竹， 尽日君王看不足。</td>
+				</tr>		
+				<tr>
+					<td>渔阳鼙鼓动地来， 惊破霓裳羽衣曲。</td>
+				</tr>
+				<tr>
+					<td>九重城阙烟尘生， 千乘万骑西南行。</td>
+				</tr>		
+				<tr>
+					<td>翠华摇摇行复止， 西出都门百余里。</td>
+				</tr>		
+				<tr>
+					<td>六军不发无奈何， 宛转蛾眉马前死。</td>
+				</tr>		
+				<tr>
+					<td>花钿委地无人收， 翠翘金雀玉搔头。</td>
+				</tr>		
+				<tr>
+					<td>君王掩面救不得， 回看血泪相和流。</td>
+				</tr>		
+				<tr>
+					<td>黄埃散漫风萧索， 云栈萦纡登剑阁。</td>
+				</tr>		
+				<tr>
+					<td>峨嵋山下少人行， 旌旗无光日色薄。</td>
+				</tr>		
+				<tr>
+					<td>蜀江水碧蜀山青， 圣主朝朝暮暮情。</td>
+				</tr>		
+				<tr>
+					<td>行宫见月伤心色， 夜雨闻铃肠断声。</td>
+				</tr>		
+				<tr>
+					<td>天旋地转回龙驭， 到此踌躇不能去。</td>
+				</tr>		
+				<tr>
+					<td>马嵬坡下泥土中， 不见玉颜空死处。</td>
+				</tr>				
+				<tr>
+					<td>君臣相顾尽沾衣， 东望都门信马归。</td>
+				</tr>				
+				<tr>
+					<td>归来池苑皆依旧， 太液芙蓉未央柳。</td>
+				</tr>				
+				<tr>
+					<td>芙蓉如面柳如眉， 对此如何不泪垂。</td>
+				</tr>				
+				<tr>
+					<td>春风桃李花开日， 秋雨梧桐叶落时。</td>
+				</tr>				
+				<tr>
+					<td>西宫南内多秋草， 落叶满阶红不扫。</td>
+				</tr>				
+				<tr>
+					<td>梨园弟子白发新， 椒房阿监青娥老。</td>
+				</tr>				
+				<tr>
+					<td>夕殿萤飞思悄然， 孤灯挑尽未成眠。</td>
+				</tr>			
+				<tr>
+					<td>迟迟钟鼓初长夜， 耿耿星河欲曙天。</td>
+				</tr>			
+				<tr>
+					<td>鸳鸯瓦冷霜华重， 翡翠衾寒谁与共。</td>
+				</tr>			
+				<tr>
+					<td>悠悠生死别经年， 魂魄不曾来入梦。</td>
+				</tr>			
+				<tr>
+					<td>临邛道士鸿都客， 能以精诚致魂魄。</td>
+				</tr>			
+				<tr>
+					<td>为感君王展转思， 遂教方士殷勤觅。</td>
+				</tr>			
+				<tr>
+					<td>排空驭气奔如电， 升天入地求之遍。</td>
+				</tr>			
+				<tr>
+					<td>上穷碧落下黄泉， 两处茫茫皆不见。</td>
+				</tr>			
+				<tr>
+					<td>忽闻海上有仙山， 山在虚无缥缈间。</td>
+				</tr>			
+				<tr>
+					<td>楼阁玲珑五云起， 其中绰约多仙子。</td>
+				</tr>			
+				<tr>
+					<td>中有一人字太真， 雪肤花貌参差是。</td>
+				</tr>			
+				<tr>
+					<td>金阙西厢叩玉扃， 转教小玉报双成。</td>
+				</tr>			
+				<tr>
+					<td>闻道汉家天子使， 九华帐里梦魂惊。</td>
+				</tr>			
+				<tr>
+					<td>揽衣推枕起徘徊， 珠箔银屏迤逦开。</td>
+				</tr>				
+				<tr>
+					<td>云髻半偏新睡觉， 花冠不整下堂来。</td>
+				</tr>				
+				<tr>
+					<td>风吹仙袂飘飘举， 犹似霓裳羽衣舞。</td>
+				</tr>				
+				<tr>
+					<td>玉容寂寞泪阑干， 梨花一枝春带雨。</td>
+				</tr>				
+				<tr>
+					<td>含情凝睇谢君王， 一别音容两渺茫。</td>
+				</tr>				
+				<tr>
+					<td>昭阳殿里恩爱绝， 蓬菜宫中日月长。</td>
+				</tr>				
+				<tr>
+					<td>回头下望人寰处， 不见长安见尘雾。</td>
+				</tr>				
+				<tr>
+					<td>唯将旧物表深情， 钿合金钗寄将去。</td>
+				</tr>				
+				<tr>
+					<td>钗留一股合一扇， 钗擘黄金合分钿。</td>
+				</tr>				
+				<tr>
+					<td>但教心似金钿坚， 天上人间会相见。</td>
+				</tr>				
+				<tr>
+					<td>临别殷勤重寄词， 词中有誓两心知。</td>
+				</tr>				
+				<tr>
+					<td>七月七日长生殿， 夜半无人私语时。</td>
+				</tr>		
+				<tr>
+					<td>在天愿作比翼鸟， 在地愿为连理枝。</td>
+				</tr>				
+				<tr>
+					<td>天长地久有时尽， 此恨绵绵无绝期。</td>
+				</tr>				
+			</table>
+			
+			
+		</div>
+		
+		<div class="foot">
+			<table align="center">
+				<tr>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JIANGSU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NANJING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				</tr>
+			</table>
+			
+		</div>
+
+		
+		
+		
+	</body>
 </html>
