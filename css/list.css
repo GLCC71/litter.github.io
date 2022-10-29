@@ -1,0 +1,124 @@
+/* 列表页CSS */
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    float: left;
+    top: 40px;
+    left: 190px;
+    width: 83px;
+    height: 32px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 17px;
+    color: #000000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 50px;
+    font-size: 14px;
+    padding: 0 25px;
+}
+
+.sk_con ul li a:hover {
+    color: #b1191a;
+}
+
+.sk_con ul li:last-child a::after {
+    content: "\e874";
+    font-family: "Linearicons-Free";
+    padding-left: 6px;
+}
+
+.sk_bd {
+    margin: 30px 0;
+}
+
+.sk_bd ul li {
+    position: relative;
+    width: 276px;
+    height: 458px;
+    float: left;
+    /* 设置透明边框鼠标经过时不会抖动 */
+    border: 1px solid transparent;
+    font-size: 14px;
+    padding-left: 12px;
+    margin-right: 24px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #e60012;
+}
+
+.sk_bd ul li img {
+    padding: 10px 0;
+}
+
+.sk_bd ul li p {
+    padding: 0 5px;
+}
+
+.sk_bd ul li .p2 span {
+    font-size: 22px;
+    color: #e60012;
+}
+
+
+.sk_bd ul li .lo {
+    display: inline-block;
+    border-radius: 8px;
+    width: 120px;
+    height: 18px;
+    border: 1px solid #e60012;
+}
+
+.sk_bd ul li .lo .lo_in {
+    display: inline-block;
+    border-radius: 8px;
+    width: 72%;
+    height: 12px;
+    background-color: #e60012;
+    margin: 0 1px 2px 1px;
+}
+
+.sk_bd ul li .more {
+    position: absolute;
+    display: inline-block;
+    top: 396px;
+    left: 2px;
+    width: 100%;
+    height: 60px;
+    background-color: red;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}

@@ -1,0 +1,152 @@
+/* 注册register CSS样式 */
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.style_red {
+    color: #b1191a;
+}
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.header .logo {
+    padding: 18px;
+}
+
+.registerarea {
+    margin-top: 20px;
+    height: 522px;
+    border: 1px solid #dfdfdf;
+}
+
+.registerarea h3 {
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #333333;
+    font-size: 18px;
+    background-color: #dfdfdf;
+}
+
+.registerarea .hf {
+    float: right;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.registerarea .hf a {
+    color: #b1191a;
+}
+
+.reg-form {
+    width: 600px;
+    margin: 80px auto 0;
+}
+
+.reg-form ul li {
+    margin-bottom: 20px;
+}
+
+.reg-form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.reg-form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #999999;
+}
+
+.error {
+    color: #cb1523;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-left: 12px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/images/error_icon_03.png)no-repeat;
+}
+
+.success {
+    color: #2feb3f;
+}
+
+.success_icon {
+    background: url(../images/images/success.png)no-repeat;
+}
+
+.safe {
+    padding-left: 147px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+    background-color: #11c01a;
+    margin-left: 5px;
+}
+
+.safe em:nth-child(2) {
+    background-color: #c1ce12;
+}
+
+.safe em:nth-child(3) {
+    background-color: #f21a1a;
+}
+
+.agree {
+    font-size: 12px
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-left: 92px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 34px;
+    margin: 30px 0 0 100px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 5px;
+}
+
+.copyright {
+    line-height: 20px;
+    margin-bottom: 30px;
+}
