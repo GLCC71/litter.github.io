@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="UTF-8">
@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="css/base.css">
     <!-- 引入CSS公共样式 -->
     <link rel="stylesheet" href="css/common.css">
-    <!-- 引入list.CSS样式 -->
-    <link rel="stylesheet" href="css/list.css">
+    <!-- 引入CSS-index样式 -->
+    <link rel="stylesheet" href="css/index.css">
     <!-- 引入favicon.ico -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>列表页-综合网购首选-正品低价、品质保障、配送及时、轻松购物！</title>
+    <title>品优购商城-综合网购首选-正品低价、品质保障、配送及时、轻松购物！</title>
     <!-- 网站说明 -->
     <meta name="description"
         content="品优购商城-专业的综合网上购物商城，为您提供正品低价的购物选择、优质便捷的服务体验。商品来自全球数十万品牌商家，囊括家电、手机、电脑、服装、居家、母婴、美妆、个护、食品、生鲜等丰富品类，满足各种购物需求。" />
@@ -30,7 +30,7 @@
                 <ul>
                     <li>品优购欢迎您！&nbsp;</li>
                     <li>
-                        <a href="#">请登陆</a> &nbsp; <a href="#" class="style_red">免费注册</a>
+                        <a href="#">请登陆</a> &nbsp; <a href="register.html" class="style_red">免费注册</a>
                     </li>
                 </ul>
             </div>
@@ -60,10 +60,6 @@
         <div class="logo">
             <h1><a href="index.html" title="品优购商城">品优购商城</a></h1>
         </div>
-        <!-- 列表页秒杀模块 -->
-        <div class="sk">
-            <img src="./images/images/秒杀_03.png" alt="">
-        </div>
         <!-- search 搜索模块 -->
         <div class="search">
             <input type="search" name="" id="" placeholder="语言开发">
@@ -89,218 +85,316 @@
     <!-- nav模块 -->
     <nav class="nav">
         <div class="w">
-            <div class="sk_list">
-                <ul>
-                    <li><a href="#">品优购秒杀</a></li>
-                    <li><a href="#">即将售罄</a></li>
-                    <li><a href="#">超值低价</a></li>
-                </ul>
+            <div class="dropdown">
+                <div class="dt">全部商品分类</div>
+                <div class="dd">
+                    <ul>
+                        <li><a href="#">家用电器</a></li>
+                        <li><a href="./list.html">手机</a>、<a href="#">数码</a>、<a href="#">通信</a></li>
+                        <li><a href="#">电脑</a>、<a href="#">办公</a></li>
+                        <li><a href="#">家居</a>、<a href="#">家具</a>、<a href="#">家装</a>、<a href="#">厨具</a></li>
+                        <li><a href="#">男装</a>、<a href="#">女装</a>、<a href="#">童装</a>、<a href="#">内衣</a></li>
+                        <li><a href="#">个户化妆</a>、<a href="#">清洁用品</a>、<a href="#">宠物</a></li>
+                        <li><a href="#">鞋靴</a>、<a href="#">箱包</a>、<a href="#">珠宝</a>、<a href="#">奢侈品</a></li>
+                        <li><a href="#">运动户外</a>、<a href="#">钟表</a></li>
+                        <li><a href="#">汽车</a>、<a href="#">汽车用品</a></li>
+                        <li><a href="#">母婴</a>、<a href="#">玩具乐器</a></li>
+                        <li><a href="#">食品</a>、<a href="#">酒类</a>、<a href="#">生鲜</a>、<a href="#">特产</a></li>
+                        <li><a href="#">医药保健</a></li>
+                        <li><a href="#">图书</a>、<a href="#">音像</a>、<a href="#">电子书</a></li>
+                        <li><a href="#">彩票</a>、<a href="#">旅行</a>、<a href="#">充值</a>、<a href="#">票务</a></li>
+                        <li><a href="#">理财</a>、<a href="#">众筹</a>、<a href="#">白条</a>、<a href="#">保险</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="sk_con">
+            <div class="navitems">
                 <ul>
-                    <li><a href="#">女装</a></li>
-                    <li><a href="#" class="style_red">女鞋</a></li>
-                    <li><a href="#">男装</a></li>
-                    <li><a href="#">男鞋</a></li>
-                    <li><a href="#">母婴童装</a></li>
-                    <li><a href="#">食品</a></li>
-                    <li><a href="#">智能数码</a></li>
-                    <li><a href="#">运动户外</a></li>
-                    <li><a href="#">更多分类</a></li>
+                    <li><a href="#">服装城</a></li>
+                    <li><a href="#">美妆馆</a></li>
+                    <li><a href="#">传智超市</a></li>
+                    <li><a href="#">全球购</a></li>
+                    <li><a href="#">闪购</a></li>
+                    <li><a href="#">团购</a></li>
+                    <li><a href="#">拍卖</a></li>
+                    <li><a href="#">有趣</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- 列表页主体部分 -->
-    <div class="w sk_container">
-        <div class="sk_hd">
-            <a href="#"><img src="./images/images/女鞋_07.png" alt=""></a>
+    <!-- mian首页专有模块 -->
+    <div class="w">
+        <div class="mian">
+            <div class="focus">
+                <ul>
+                    <li><img src="./upload/banner.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="newflash">
+                <div class="nes">
+                    <div class="new-hd">
+                        <h5>品优购快报</h5>
+                        <a href="#" class="more">更多</a>
+                    </div>
+                    <div class="new-bd">
+                        <ul>
+                            <li><a href="#">[特惠]aka小野牛来啦！！</a></li>
+                            <li><a href="#">[特惠]aka藻门碳质郎来啦！！</a></li>
+                            <li><a href="#">[特惠]aka小祢豆子来啦！！</a></li>
+                            <li><a href="#">[特惠]aka小野牛来啦!aka小野牛来啦!aka小野牛来啦!aka小野牛来啦！</a></li>
+                            <li><a href="#">[特惠]aka小野牛来啦！！</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lifeservice">
+                    <ul>
+                        <li>
+                            <i></i>
+                            <p>话费</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>机票</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>电影票</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>游戏</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>彩票</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>加油卡</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>酒店</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>火车票</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>众筹</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>理财</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>礼品卡</p>
+                        </li>
+                        <li>
+                            <i></i>
+                            <p>白条</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="bargain">
+                    <img src="./upload/广告_39.png" alt="">
+                </div>
+            </div>
         </div>
-        <div class="sk_bd clearfix">
+    </div>
+
+    <!-- 推荐模块 -->
+    <div class="w recom">
+        <div class="recom_hd"></div>
+        <div class="recom_bd">
             <ul>
-                <li>
-                    <img src="./upload/images/列表手机_11.png" alt="">
-                    <div class="wenzi">
-                        <p class="p1">Apple苹果iPhone 6s Plus（A1699）32G 金
-                            色 移动联通电信4G手机</p>
-                        <p class="p2"><span>¥6088</span>&nbsp;&nbsp;<del>￥6988</del></p>
-                        <p class="p3"><span>已售87%</span>
-                            <span class="lo">
-                                <span class="lo_in"></span>
-                            </span>
-                            剩余<i class="style_red">29</i>件
-                        </p>
-                        <a href="#" class="more">立即抢购</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="./upload/images/列表手机_11.png" alt="">
-                    <div class="wenzi">
-                        <p class="p1">Apple苹果iPhone 6s Plus（A1699）32G 金
-                            色 移动联通电信4G手机</p>
-                        <p class="p2"><span>¥6088</span>&nbsp;&nbsp;<del>￥6988</del></p>
-                        <p class="p3"><span>已售87%</span>
-                            <span class="lo">
-                                <span class="lo_in"></span>
-                            </span>
-                            剩余<i class="style_red">29</i>件
-                        </p>
-                        <a href="#" class="more">立即抢购</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="./upload/images/列表手机_11.png" alt="">
-                    <div class="wenzi">
-                        <p class="p1">Apple苹果iPhone 6s Plus（A1699）32G 金
-                            色 移动联通电信4G手机</p>
-                        <p class="p2"><span>¥6088</span>&nbsp;&nbsp;<del>￥6988</del></p>
-                        <p class="p3"><span>已售87%</span>
-                            <span class="lo">
-                                <span class="lo_in"></span>
-                            </span>
-                            剩余<i class="style_red">29</i>件
-                        </p>
-                        <a href="#" class="more">立即抢购</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="./upload/images/列表手机_11.png" alt="">
-                    <div class="wenzi">
-                        <p class="p1">Apple苹果iPhone 6s Plus（A1699）32G 金
-                            色 移动联通电信4G手机</p>
-                        <p class="p2"><span>¥6088</span>&nbsp;&nbsp;<del>￥6988</del></p>
-                        <p class="p3"><span>已售87%</span>
-                            <span class="lo">
-                                <span class="lo_in"></span>
-                            </span>
-                            剩余<i class="style_red">29</i>件
-                        </p>
-                        <a href="#" class="more">立即抢购</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="./upload/images/列表手机_11.png" alt="">
-                    <div class="wenzi">
-                        <p class="p1">Apple苹果iPhone 6s Plus（A1699）32G 金
-                            色 移动联通电信4G手机</p>
-                        <p class="p2"><span>¥6088</span>&nbsp;&nbsp;<del>￥6988</del></p>
-                        <p class="p3"><span>已售87%</span>
-                            <span class="lo">
-                                <span class="lo_in"></span>
-                            </span>
-                            剩余<i class="style_red">29</i>件
-                        </p>
-                        <a href="#" class="more">立即抢购</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="./upload/images/列表手机_11.png" alt="">
-                    <div class="wenzi">
-                        <p class="p1">Apple苹果iPhone 6s Plus（A1699）32G 金
-                            色 移动联通电信4G手机</p>
-                        <p class="p2"><span>¥6088</span>&nbsp;&nbsp;<del>￥6988</del></p>
-                        <p class="p3"><span>已售87%</span>
-                            <span class="lo">
-                                <span class="lo_in"></span>
-                            </span>
-                            剩余<i class="style_red">29</i>件
-                        </p>
-                        <a href="#" class="more">立即抢购</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="./upload/images/列表手机_11.png" alt="">
-                    <div class="wenzi">
-                        <p class="p1">Apple苹果iPhone 6s Plus（A1699）32G 金
-                            色 移动联通电信4G手机</p>
-                        <p class="p2"><span>¥6088</span>&nbsp;&nbsp;<del>￥6988</del></p>
-                        <p class="p3"><span>已售87%</span>
-                            <span class="lo">
-                                <span class="lo_in"></span>
-                            </span>
-                            剩余<i class="style_red">29</i>件
-                        </p>
-                        <a href="#" class="more">立即抢购</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="./upload/images/列表手机_11.png" alt="">
-                    <div class="wenzi">
-                        <p class="p1">Apple苹果iPhone 6s Plus（A1699）32G 金
-                            色 移动联通电信4G手机</p>
-                        <p class="p2"><span>¥6088</span>&nbsp;&nbsp;<del>￥6988</del></p>
-                        <p class="p3"><span>已售87%</span>
-                            <span class="lo">
-                                <span class="lo_in"></span>
-                            </span>
-                            剩余<i class="style_red">29</i>件
-                        </p>
-                        <a href="#" class="more">立即抢购</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="./upload/images/列表手机_11.png" alt="">
-                    <div class="wenzi">
-                        <p class="p1">Apple苹果iPhone 6s Plus（A1699）32G 金
-                            色 移动联通电信4G手机</p>
-                        <p class="p2"><span>¥6088</span>&nbsp;&nbsp;<del>￥6988</del></p>
-                        <p class="p3"><span>已售87%</span>
-                            <span class="lo">
-                                <span class="lo_in"></span>
-                            </span>
-                            剩余<i class="style_red">29</i>件
-                        </p>
-                        <a href="#" class="more">立即抢购</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="./upload/images/列表手机_11.png" alt="">
-                    <div class="wenzi">
-                        <p class="p1">Apple苹果iPhone 6s Plus（A1699）32G 金
-                            色 移动联通电信4G手机</p>
-                        <p class="p2"><span>¥6088</span>&nbsp;&nbsp;<del>￥6988</del></p>
-                        <p class="p3"><span>已售87%</span>
-                            <span class="lo">
-                                <span class="lo_in"></span>
-                            </span>
-                            剩余<i class="style_red">29</i>件
-                        </p>
-                        <a href="#" class="more">立即抢购</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="./upload/images/列表手机_11.png" alt="">
-                    <div class="wenzi">
-                        <p class="p1">Apple苹果iPhone 6s Plus（A1699）32G 金
-                            色 移动联通电信4G手机</p>
-                        <p class="p2"><span>¥6088</span>&nbsp;&nbsp;<del>￥6988</del></p>
-                        <p class="p3"><span>已售87%</span>
-                            <span class="lo">
-                                <span class="lo_in"></span>
-                            </span>
-                            剩余<i class="style_red">29</i>件
-                        </p>
-                        <a href="#" class="more">立即抢购</a>
-                    </div>
-                </li>
-                <li>
-                    <img src="./upload/images/列表手机_11.png" alt="">
-                    <div class="wenzi">
-                        <p class="p1">Apple苹果iPhone 6s Plus（A1699）32G 金
-                            色 移动联通电信4G手机</p>
-                        <p class="p2"><span>¥6088</span>&nbsp;&nbsp;<del>￥6988</del></p>
-                        <p class="p3"><span>已售87%</span>
-                            <span class="lo">
-                                <span class="lo_in"></span>
-                            </span>
-                            剩余<i class="style_red">29</i>件
-                        </p>
-                        <a href="#" class="more">立即抢购</a>
-                    </div>
-                </li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
             </ul>
         </div>
+    </div>
+
+    <!-- floor楼层区域 -->
+    <div class="floor">
+        <!-- 家用电器楼层 -->
+        <div class="w jiadian">
+            <div class="box-hd">
+                <h3>家用电器</h3>
+                <div class="tab_list">
+                    <ul>
+                        <li><a href="#" class="style_red">热门</a>|</li>
+                        <li><a href="#">大家电</a>|</li>
+                        <li><a href="#">生活电器</a>|</li>
+                        <li><a href="#">厨房电器</a>|</li>
+                        <li><a href="#">个护健康</a>|</li>
+                        <li><a href="#">应季电器</a>|</li>
+                        <li><a href="#">空气/净水</a>|</li>
+                        <li><a href="#">新奇特</a>|</li>
+                        <li><a href="#">高端电器</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-bd">
+                <div class="tab_content">
+                    <div class="tab_list_item">
+                        <div class="col_210">
+                            <ul>
+                                <li><a href="#">节能补贴</a></li>
+                                <li><a href="#">4K电视</a></li>
+                                <li><a href="#">空气净化器</a></li>
+                                <li><a href="#">IH电饭煲</a></li>
+                                <li><a href="#">滚筒洗衣机</a></li>
+                                <li><a href="#">电热水器</a></li>
+                            </ul>
+                            <a href="#">
+                                <img src="./upload/家电三星_43.png" alt="">
+
+                            </a>
+                        </div>
+                        <div class="col_329">
+                            <a href="#">
+                                <img src="./upload/images/floor_big_43.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col_221">
+                            <a href="#" class="bb"><img src="./upload/images/家电01_03.png" alt=""></a>
+                            <a href="#"><img src="./upload/images/家电02_03.png" alt=""></a>
+                        </div>
+                        <div class="col_221">
+                            <a href="#"><img src="./upload/images/家电03_03.png" alt=""></a>
+                            <a href="#"><img src="./upload/images/家电04_03.png" alt=""></a>
+                        </div>
+                        <div class="col_219">
+                            <a href="#" class="bb"><img src="./upload/images/家电05_03.png" alt=""></a>
+                            <a href="#"><img src="./upload/images/家电06_03.png" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 手机通讯楼层 -->
+        <div class="w shouji">
+            <div class="box-hd">
+                <h3>手机通讯</h3>
+                <div class="tab_list">
+                    <ul>
+                        <li><a href="#" class="style_red">热门</a>|</li>
+                        <li><a href="#">大家电</a>|</li>
+                        <li><a href="#">生活电器</a>|</li>
+                        <li><a href="#">厨房电器</a>|</li>
+                        <li><a href="#">个护健康</a>|</li>
+                        <li><a href="#">应季电器</a>|</li>
+                        <li><a href="#">空气/净水</a>|</li>
+                        <li><a href="#">新奇特</a>|</li>
+                        <li><a href="#">高端电器</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-bd">
+                <div class="tab_content">
+                    <div class="tab_list_item">
+                        <div class="col_210">
+                            <ul>
+                                <li><a href="#">节能补贴</a></li>
+                                <li><a href="#">4K电视</a></li>
+                                <li><a href="#">空气净化器</a></li>
+                                <li><a href="#">IH电饭煲</a></li>
+                                <li><a href="#">滚筒洗衣机</a></li>
+                                <li><a href="#">电热水器</a></li>
+                            </ul>
+                            <a href="#">
+                                <img src="./upload/家电三星_43.png" alt="">
+
+                            </a>
+                        </div>
+                        <div class="col_329">
+                            <a href="#">
+                                <img src="./upload/images/floor_big_43.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col_221">
+                            <a href="#" class="bb"><img src="./upload/images/家电01_03.png" alt=""></a>
+                            <a href="#"><img src="./upload/images/家电02_03.png" alt=""></a>
+                        </div>
+                        <div class="col_221">
+                            <a href="#"><img src="./upload/images/家电03_03.png" alt=""></a>
+                            <a href="#"><img src="./upload/images/家电04_03.png" alt=""></a>
+                        </div>
+                        <div class="col_219">
+                            <a href="#" class="bb"><img src="./upload/images/家电05_03.png" alt=""></a>
+                            <a href="#"><img src="./upload/images/家电06_03.png" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 电脑办公楼层 -->
+        <div class="w diannao">
+            <div class="box-hd">
+                <h3>电脑办公</h3>
+                <div class="tab_list">
+                    <ul>
+                        <li><a href="#" class="style_red">热门</a>|</li>
+                        <li><a href="#">大家电</a>|</li>
+                        <li><a href="#">生活电器</a>|</li>
+                        <li><a href="#">厨房电器</a>|</li>
+                        <li><a href="#">个护健康</a>|</li>
+                        <li><a href="#">应季电器</a>|</li>
+                        <li><a href="#">空气/净水</a>|</li>
+                        <li><a href="#">新奇特</a>|</li>
+                        <li><a href="#">高端电器</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-bd">
+                <div class="tab_content">
+                    <div class="tab_list_item">
+                        <div class="col_210">
+                            <ul>
+                                <li><a href="#">节能补贴</a></li>
+                                <li><a href="#">4K电视</a></li>
+                                <li><a href="#">空气净化器</a></li>
+                                <li><a href="#">IH电饭煲</a></li>
+                                <li><a href="#">滚筒洗衣机</a></li>
+                                <li><a href="#">电热水器</a></li>
+                            </ul>
+                            <a href="#">
+                                <img src="./upload/家电三星_43.png" alt="">
+
+                            </a>
+                        </div>
+                        <div class="col_329">
+                            <a href="#">
+                                <img src="./upload/images/floor_big_43.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col_221">
+                            <a href="#" class="bb"><img src="./upload/images/家电01_03.png" alt=""></a>
+                            <a href="#"><img src="./upload/images/家电02_03.png" alt=""></a>
+                        </div>
+                        <div class="col_221">
+                            <a href="#"><img src="./upload/images/家电03_03.png" alt=""></a>
+                            <a href="#"><img src="./upload/images/家电04_03.png" alt=""></a>
+                        </div>
+                        <div class="col_219">
+                            <a href="#" class="bb"><img src="./upload/images/家电05_03.png" alt=""></a>
+                            <a href="#"><img src="./upload/images/家电06_03.png" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
     <!-- 底部模块 -->
